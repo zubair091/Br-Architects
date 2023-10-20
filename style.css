@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Sans:ital@0;1&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+nav ul h4 {
+    float: left;
+
+
+}
+
+nav ul {
+
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+
+}
+
+.main_container h3 {
+    font-size: 1.2rem;
+    margin: 0px 120px;
+    padding: 16px
+}
+
+
+.headImage {
+    width: 80vw;
+    height: 30vw;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.headImage h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 200px;
+    color: black;
+}
+
+.headImage span {
+    background-color: white;
+}
+
+.imageFirstContainer{
+    width: 80vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+.imageFirstContainer img {
+
+    width: 400px;
+    height: 250px;
+    /* margin: 0 auto; */
+    padding: 8px;
+}
+
+.imageSecondContainer {
+    width: 80vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.imageSecondContainer img {
+
+    width: 400px;
+    height: 250px;
+    /* margin: 0 auto; */
+    padding: 8px;
+}
+.para {
+    font-size: 1rem;
+    margin: 0px 120px;
+    padding: 16px
+}
+.cartContainer{
+    width: 80vw;
+    height: 400px;
+   display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cart{
+    width: 300px;
+    height: 373px;
+    /* background-color: rgb(243, 243, 243); */
+    padding: 8px;
+   /* border: 1px solid black; */
+    text-align: center;
+    
+
+}
+.cart img{
+ width: 263px;
+height: 190px;
+padding: 8px;
+border-radius: 15px;
+}
+.cart .name{
+    text-align: start;
+    margin: 0px 13px;
+    font-size: 20px;
+}
+.cart .job{
+    text-align: start;
+    margin: 0px 13px;
+    color: rgb(153, 151, 151);
+}
+.cart .text{
+    font-size: 14px;
+}
+.cart .btn{
+width: 100%;
+margin: 10px 0px;
+padding: 7px;
+border: none;
+border-radius: 3px;
+}
+
+.input_container{
+    width: 80vw;
+    margin: 0 auto;
+
+
+}
+.input_container h5{
+    font-size: 16px;
+}
+.input_container input{
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0px;
+}
+.input_container button{
+    font-size: 20px;
+  padding: 10px;
+  margin: 15px 0px;
+  background-color: black;
+  color: white;
+}
+.roadMap{
+    width: 80vw;
+    height: 30vw;
+    background-image: url('images/tim-trad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+footer{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer h5{
+    font-size: 20px;
+}
